@@ -1,5 +1,9 @@
 // Floating label headings for the contact form
-$(document).ready(function () {$("#dropbtn").click()})
+$(document).ready(function () {
+	console.log("FUCK")
+	setTimeout(function() {$("#dropbtn").click()}, 1000)
+	console.log("FUCK")
+})
 
 $(function() {
     $("body").on("input propertychange", ".floating-label-form-group", function(e) {
